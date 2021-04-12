@@ -1,0 +1,79 @@
+.sv{
+    background-color: #eff0f7;
+}
+
+.content{
+    
+    display: flex;
+    padding: 10px;
+}
+
+
+
+.photo-contacts{
+    flex: 0 1 35%;
+    text-align: center;
+    background-color: #537bbd;
+    .photo{
+        img{    
+            width: 100%;
+        }
+    }
+    .contacts{
+        padding: 15px 0 0 0;
+        color: #ffffff;
+        ul{
+            width: 250px;
+            text-align: left;
+            margin: 10px 0 0 130px ;
+            li{
+                padding: 5px 0;
+            }
+        }
+    }
+}
+
+.info{
+    flex: 1 1 65%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    color: #063681;
+    .name{
+        h1{
+            font-size: 40px;
+            padding: 0 0 10px 0;
+        }
+        p{
+            font-size: 25px;
+            padding: 0 0 50px 0;
+        }
+        p:after{
+            content: '';
+            display: flex;
+            width: 200px;
+            height: 3px;
+            background-color: #537bbd;
+            margin: 30px  auto 0 ;
+        }
+    }
+    h2{
+            font-size: 30px;
+            padding: 0 0 15px 0;
+        }
+
+    .work{
+        padding: 0 0 50px 0;
+    }    
+
+    .education{
+        padding: 0 0 50px 0;
+        .first-school{
+            padding: 10px 0;
+        }
+    }
+
+    .git{
+        padding: 30px 0 0 0;
+    }
+}
